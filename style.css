@@ -1,0 +1,42 @@
+body{
+    display: grid;
+    place-items: center;
+}
+.tableContainer{
+    grid-template-columns: 2fr;
+    padding: 10px;
+    font-weight: bold;
+    height: 400px;
+    position: relative;
+    
+}
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width:600px;
+    text-align: center;
+    margin-left:1%;
+    height: 40px;
+    
+}
+.clickbuttons{
+    margin:1px 1px 1px 0px;
+    margin: 1%;
+    position: absolute;
+    bottom: 0px;
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+ button{
+    flex-direction:column;
+    justify-content: flex-end;
+    margin:1px;
+    padding:5px;
+    place-items: center;
+    background-color: rgb(219, 88, 252);
+    
+  }
+  button:hover{
+      background-color: rgb(149, 247, 70);
+  }
